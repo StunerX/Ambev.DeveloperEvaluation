@@ -76,9 +76,6 @@ TestResults/
 *.ldf
 *.ndf
 
-# EF Core Migrations snapshots (opcional se não versionar)
-Migrations/
-
 # JetBrains Rider
 .idea/
 
