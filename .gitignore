@@ -1,0 +1,113 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.swp
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Others
+*.dbmdl
+*.bak
+*.log
+*.ncb
+*.cache
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+.vscode-test/
+
+# Rider
+.idea/
+*.sln.iml
+
+# dotCover
+.idea/.dotCover
+
+# User secrets
+**/secrets.json
+
+# Local history for Rider/VS
+.localhistory/
+.ReSharper/
+
+# ASP.NET HTTPS certs
+**/.aspnet/https/
+
+# Docker related
+docker-compose.override.yml
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+**/logs/
+**/log/
+
+# NPM / Node (caso tenha front-end no repo)
+node_modules/
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+*.vsp
+*.vspx
+*.sap
+
+# Database files (se você gerar localmente)
+*.mdf
+*.ldf
+*.ndf
+
+# EF Core Migrations snapshots (opcional se não versionar)
+Migrations/
+
+# JetBrains Rider
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Linux
+*~
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+*.old
+*.orig
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
+
+# Visual Studio 2019/2022 cache and configuration files
+.vs/
