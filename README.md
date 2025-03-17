@@ -2,7 +2,7 @@
 # 🏢 Ambev Developer Evaluation API
 
 API RESTful desenvolvida como parte do processo de avaliação técnica da Ambev.  
-A aplicação foi construída seguindo os princípios da **Clean Architecture**, utilizando **.NET 7**, **Entity Framework Core (PostgreSQL)**, **MediatR**, **Serilog** e **Docker Compose** para orquestração do ambiente.
+A aplicação foi construída seguindo os princípios da **Clean Architecture**, utilizando **.NET 8**, **Entity Framework Core (PostgreSQL)**, **MediatR**, **Serilog** e **Docker Compose** para orquestração do ambiente.
 
 ---
 
