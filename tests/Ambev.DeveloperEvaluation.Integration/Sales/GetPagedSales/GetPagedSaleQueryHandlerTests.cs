@@ -60,8 +60,12 @@ public class GetPagedSaleQueryHandlerTests : IClassFixture<GetPagedSaleQueryHand
         // Arrange
         using var scope = _fixture.CreateScope();
 
+        var dbContext = scope.ServiceProvider.GetRequiredService<DefaultContext>();
         var unitOfWork = scope.ServiceProvider.GetRequiredService<IUnitOfWork>();
         var mapper = scope.ServiceProvider.GetRequiredService<IMapper>();
+        
+        await dbContext.Database.EnsureDeletedAsync();
+        await dbContext.Database.EnsureCreatedAsync();
 
         var handler = new GetPagedSalesQueryHandler(unitOfWork, mapper);
 
